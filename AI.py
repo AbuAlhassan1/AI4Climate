@@ -1,6 +1,5 @@
 class AI_Task:
 
-
     # -_-
 
     # def removeChar(self, str, target):
@@ -32,7 +31,7 @@ class AI_Task:
         return prim_numbers_list
 
     # It's Case Sensitive sry :(
-    def removeRepeatedChar(self, str):
+    def repeatedChar(self, str):
         chars = { c : 1 for c in str }
         isDone = { c : False for c in str }
 
@@ -53,4 +52,4 @@ ai = AI_Task()
 
 print(ai.removeChar("AbuAlhassan", "A"))
 print(ai.findPrimNum(0, 1000))
-print(ai.removeRepeatedChar("abualhassan"))
+print(ai.repeatedChar("abualhassan"))
